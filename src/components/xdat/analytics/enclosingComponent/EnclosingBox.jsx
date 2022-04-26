@@ -1,10 +1,10 @@
 import './EnclosingBox.css'
 
 import logo from '../../../../logo.svg';
-import ProductivityContent from '../productivity/ProductivityContent';
+// import ProductivityContent from '../productivity/ProductivityContent';
 // import BaseMetricsContent from '../baseMetricsComponent/BaseMetricsContent';
 
-const EnclosingBox = ({title, subtitle}) => {
+const EnclosingBox = ({title, subtitle, children}) => {
   return (
     <div className='containing-box'>
       <div className='heading'>
@@ -16,7 +16,8 @@ const EnclosingBox = ({title, subtitle}) => {
       </div>
       <div className="details-box">
         {/* <BaseMetricsContent /> */}
-        <ProductivityContent />
+        {/* <ProductivityContent /> */}
+        {children}
       </div>
     </div>
   )
