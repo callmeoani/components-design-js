@@ -28,7 +28,7 @@ function App() {
       </div> */}
 
       <div className='app5'>
-        <EnclosingBox title={'Base Metrics'} subtitle={'1AM - 6AM'} />
+        <EnclosingBox title={'Productivity'} subtitle={'By Department'} />
       </div>
     </div>
   );

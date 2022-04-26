@@ -1,0 +1,39 @@
+
+.details-box-content {
+  display: flex;
+  padding: 8px 0;
+  margin: 0;
+  border-bottom: 1px solid #cccccc;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.details-box-content-main {
+  display: flex;
+  align-items: baseline;
+
+}
+
+.details-box-content-arrow {
+  color: #cccccc;
+}
+
+.last {
+  border-bottom: none;
+}
+
+.details-box-content-icon {
+  width: 40px;
+  height: 40px;
+  align-self: center;
+}
+
+
+.details-box-content-number {
+  font-size: 32px;
+  margin: 0 10px;
+}
+
+.details-box-content-description {
+  color: #cccccc;
+}
