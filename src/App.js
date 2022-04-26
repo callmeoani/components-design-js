@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+// import CompaniesCardMap from './components/xdat/companies/CompaniesCardMap';
+// import HrManagementMap from './components/hrManagementCard/HrManagementMap';
+// import PonyWeistOverall1 from './components/ponyweist/sample1/PonyWeistOverall1';
+import PonyWeistOverall2 from './components/ponyweist/sample2/PonyWeistOverall2';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <div className='app1'>
+        <HrManagementMap />
+      </div> */}
+
+      <div className='app2'>
+        {/* <PonyWeistOverall1 /> */}
+        <p />
+        <PonyWeistOverall2 />
+      </div>
+
+      {/* <div className='app3'>
+        <CompaniesCardMap />
+      </div> */}
     </div>
   );
 }
